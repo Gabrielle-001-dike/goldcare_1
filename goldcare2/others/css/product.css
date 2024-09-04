@@ -1,0 +1,75 @@
+*{
+    color: var(--submain);
+    background-color:white;
+    font-family: "Gupter", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root{
+    --main:#e9ca30;
+    --submain:rgb(110, 182, 3);
+}
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+nav>.nimg>img{
+    width: 250px;
+    height: 90px;
+}
+
+nav>.ncontent>a{
+    text-decoration: none;
+    padding: 0px 20px;
+    text-transform: capitalize;
+    color: var(--submain);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+nav>.ncontent>a:hover{
+    color: #498169;
+}
+nav>.ncontent>a>i:hover{
+    color: #498169;
+}
+
+nav>.norder>a{
+    text-decoration: none;
+    padding: 0px 20px;
+    text-transform: capitalize;
+    color: var(--submain);
+    font-weight: 500;
+    font-size: 30px;
+}
+
+nav>.norder>a:hover{
+    color: #498169;
+}
+nav>.norder>a>i:hover{
+    color: #498169;
+}
+
+
+.start{
+    height: 30rem;
+    background-image: url(../images/lab\ office\ 2.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    object-fit: fill;
+}\
+
+
+
+
+
+
+
+4098885534
