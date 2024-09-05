@@ -1,0 +1,218 @@
+*{
+    color: var(--submain);
+    background-color:white;
+    font-family: "Gupter", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root{
+    --main:#e9ca30;
+    --submain:rgb(28, 129, 8);
+    --hcolor:rgb(17, 170, 17);
+}
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+nav>.nimg>img{
+    width: 250px;
+    height: 90px;
+}
+
+nav .nav>.nav-item a{
+    text-decoration: none;
+    padding: 0px 20px;
+    text-transform: capitalize;
+    color: var(--submain);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+nav .nav>.nav-item a:first-child{
+    color: var(--submain);
+}
+
+nav>.norder>a{
+    text-decoration: none;
+    padding: 0px 20px;
+    text-transform: capitalize;
+    color: var(--submain);
+    font-weight: 500;
+    font-size: 30px;
+}
+
+nav>.norder>a:hover{
+    color: #498169;
+}
+
+nav>.norder:hover{
+    color: #498169;
+
+}
+nav>.norder>a>i:hover{
+    color: #498169;
+}
+/* hero */
+/* .carousel>.carousel-indicators>li{
+    width: 20rem;
+    height: 20rem;
+    background-color: transparent;
+} */
+
+.carousel-inner>.carousel-item>img{
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-inner>.carousel-item>.carousel-caption{
+    background-color: transparent;
+    left: 20px;
+    text-align: left;
+    top: 180px;
+    color: var(--submain);
+    text-wrap: wrap;
+} 
+.carousel-inner>.carousel-item>.carousel-caption>h1{
+    background-color: transparent;
+} 
+.carousel-inner>.carousel-item>.carousel-caption>h4{
+    background-color: transparent;
+} 
+.carousel-inner>.carousel-item>.carousel-caption>a{
+    background-color: var(--main);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: larger;
+    text-decoration: none;
+    color: var(--submain);
+    margin-top: 30px;
+} 
+
+.carousel-inner>.carousel-item>.carousel-caption>a:hover{
+    font-size:20px ;
+}
+
+/* offers */
+.offering>.head h1{
+    font-size: 60px;
+    margin: 20px 0;
+}
+/* 
+.offering .card-body{
+    height: 30rem;
+} */
+
+.card img{
+    width: 100%;
+    height: 20rem;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+
+.card .card-text{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.card .card-text + p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card .card-body p{
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.card .card-body a{
+    padding: 10px;
+    background-color: var(--main);
+    color: var(--submain);
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.card .card-body i{
+    background-color: var(--submain);
+    color: var(--main);
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+.card .card-body a:hover{
+    background-color: var(--submain);
+    color: var(--main);
+}
+.card .card-body i:hover{
+    background-color: var(--submain);
+    color: var(--main);
+}
+
+
+
+/* footer */
+.footer>.contact li{
+    list-style: none;
+    text-align: justify;
+}
+
+.footer>.contact li>a{
+    text-decoration: none;
+    color: var(--main);
+    text-align: center;
+}
+
+.footer{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 60px;
+    border-top:  3px solid var(--main);
+    margin-top: 20px;
+    background-color: var(--submain);
+}
+
+.footer>.logo>img{
+    width: 30rem;
+    height: 10rem;
+    object-fit: cover;
+    background-color: var(--submain);
+}
+
+.footer .contact{
+    background-color: var(--submain);
+}
+
+.footer .contact>ul li{
+    background-color: var(--submain);
+}
+
+.footer .contact>ul li>h4{
+    background-color: var(--submain);
+    color: var(--main);
+    font-weight: 600;
+}
+
+.footer .contact>ul li>a{
+    background-color: var(--submain);
+
+}
+
+.copy{
+    font-size: larger;
+    color: var(--main);
+    background-color: var(--submain);
+}
+
+
+/* covid-19 & blood sugar test */
