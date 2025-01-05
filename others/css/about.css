@@ -21,7 +21,7 @@ nav{
     background-color: transparent;
 }
 
-nav>.nimg>img{
+nav .nimg>img{
     width: 250px;
     height: 90px;
 }
@@ -37,9 +37,11 @@ nav .nav>.nav-item a{
 
 nav .nav>.nav-item a:first-child{
     color: var(--submain);
+    margin-left: 70px;
+    font-size: 23px;
 }
 
-nav>.norder>a{
+form>.norder>a{
     text-decoration: none;
     padding: 0px 20px;
     text-transform: capitalize;
@@ -48,15 +50,15 @@ nav>.norder>a{
     font-size: 30px;
 }
 
-nav>.norder>a:hover{
+form>.norder>a:hover{
     color: var(--hcolor);
 }
 
-nav>.norder:hover{
+form>.norder:hover{
     color: var(--hcolor);
 
 }
-nav>.norder>a>i:hover{
+form>.norder>a>i:hover{
     color: var(--hcolor);
 }
 
@@ -91,8 +93,8 @@ nav>.norder>a>i:hover{
     width: 25rem;
     z-index: 2;
     position: absolute;
-    right: 30px;
-    top: 50px;
+    right: 40px;
+    top: 30px;
     background-color: transparent;
     margin-right: 100px;
 }
@@ -115,7 +117,7 @@ nav>.norder>a>i:hover{
     margin:  30px 130px;
     width: 200rem;
     position: absolute;
-    top: 420px;
+    top: 500px;
     z-index: 4;
     
 }

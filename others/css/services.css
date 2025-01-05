@@ -21,7 +21,7 @@ nav{
     background-color: transparent;
 }
 
-nav>.nimg>img{
+nav .nimg>img{
     width: 250px;
     height: 90px;
 }
@@ -37,9 +37,11 @@ nav .nav>.nav-item a{
 
 nav .nav>.nav-item a:first-child{
     color: var(--submain);
+    margin-left: 70px;
+    font-size: 23px;
 }
 
-nav>.norder>a{
+form>.norder>a{
     text-decoration: none;
     padding: 0px 20px;
     text-transform: capitalize;
@@ -48,16 +50,16 @@ nav>.norder>a{
     font-size: 30px;
 }
 
-nav>.norder>a:hover{
-    color: #498169;
+form>.norder>a:hover{
+    color: var(--hcolor);
 }
 
-nav>.norder:hover{
-    color: #498169;
+form>.norder:hover{
+    color: var(--hcolor);
 
 }
-nav>.norder>a>i:hover{
-    color: #498169;
+form>.norder>a>i:hover{
+    color: var(--hcolor);
 }
 /* hero */
 /* .carousel>.carousel-indicators>li{
@@ -214,5 +216,8 @@ nav>.norder>a>i:hover{
     background-color: var(--submain);
 }
 
-
 /* covid-19 & blood sugar test */
+
+@media{
+    min
+}

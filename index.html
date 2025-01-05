@@ -15,64 +15,56 @@
 </head>
 <body>
         <!-- navbar starts -->
-        <section>
-            <div>
-                <nav>
-                        <div class="nimg">
-                            <img src="others/images/goldcare logo trans 2.png" alt="">
-                        </div>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">Service</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">Product</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">About</a>
-                                </li>
-                            </ul>
-                        </div> -->
-                        <ul
-                            class="nav nav-tabs"
-                        >
-                            <li class="nav-item">
-                                <a href="index.html" class="nav-link active " aria-current="page"
-                                    >Home</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a href="about.html" class="nav-link">About</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a
-                                    class="nav-link dropdown-toggle"
-                                    data-bs-toggle="dropdown"
-                                    href="#"
-                                    role="button"
-                                    aria-haspopup="true"
-                                    aria-expanded="false"
-                                    >Services</a
-                                >
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="services1.html">Diagnostics</a>
-                                    <a class="dropdown-item" href="#">Medical Equipments & Lab Reagents</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Consultation</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Products</a>
-                            </li>
-                        </ul>
+
+        <nav class="navbar d-flex  navbar-expand-sm bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#" >
+                    <div class="nimg">
+                        <img src="others/images/goldcare logo trans 2.png" alt="">
+                    </div>
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="fa-solid fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="nav navbar-nav nav-underline me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active " href="index.html" aria-current="page">Home
+                                <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Services </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="services1.html">Diagnostics</a>
+                                <a class="dropdown-item" href="services1.html">Consultations</a>
+                                <a class="dropdown-item" href="services1.html">Medical Dispatch</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Products</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="services1.html">Laboratory Reagents </a>
+                                <a class="dropdown-item" href="services1.html">Laboratory Equipments </a>
+                                <a class="dropdown-item" href="services1.html">Hospital Equipments</a>
+                                <a class="dropdown-item" href="services1.html">Wearable Devices</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
                         <div class="norder">
                             <a href="#" >order <i class="fa-solid fa-cart-shopping"></i></a>
-                        </div>    
-                    </nav>
+                        </div>  
+                    </form>
+                </div>
             </div>
-        </section>
+        </nav> 
         <!-- navbar ends -->
 
         <!-- hero starts -->
@@ -80,9 +72,9 @@
     <div class="hero">
 
     </div>
-    <div class="title">
-        <h1>Goldcare</h1>
-    </div>
+            <div class="title">
+                <h1>Goldcare</h1>
+            </div>
    </section>
     <!-- hero ends -->
 
@@ -93,7 +85,7 @@
                 <h1 class="ms-3 me-3 mb-0 text-nowrap">Why Goldcare?</h1>
                 <hr class="w-50">
             </div>
-            <div class="row">
+            <div class="row ">
                 <div class="col-6">
                     <div class="wrap">
                         <div class="info">
@@ -120,14 +112,14 @@
         </div>
 
         <div class="row ">
-            <div class="col-4">
+            <div class="col-4 col-sm-1">
                 <div class="service">
                     <div class="card border-0">
                         <img class="card-img-top h-100 object-fit-cover" src="others/images/diagnostics.jpg" alt="Title" />
                         <div class="card-body">
                             <h4 class="card-title">Diagnostics</h4>
                             <p class="card-text">Offering a range of diagnostic tests to support accurate health assessments.</p>
-                            <a href="#">see more</a>
+                            <a href="services1.html">see more</a>
                         </div>
                   </div>
                     <div class="card border-0">
@@ -236,6 +228,13 @@
      
     <!-- contact -->
 
+     <div class="pratice">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsam labore quibusdam obcaecati quo quidem at consequuntur eius hic nihil?</p>
+        <div class="pimg">
+            <img src="others/images/consult.jpg" alt="">
+        </div>
+     </div>
+
          <!-- footer -->
          <footer>
              <div class="footer">
@@ -330,3 +329,71 @@
 
 
     <!-- <ul class="nav nav-underline">
+
+
+
+
+
+
+
+
+
+
+        <section>
+            <div>
+                <nav>
+                        <div class="nimg">
+                            <img src="others/images/goldcare logo trans 2.png" alt="">
+                        </div>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Service</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Product</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">About</a>
+                                </li>
+                            </ul>
+                        </div> -->
+                        <!-- <ul
+                            class="nav nav-tabs"
+                        >
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link active " aria-current="page"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    data-bs-toggle="dropdown"
+                                    href="#"
+                                    role="button"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    >Services</a
+                                >
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="services1.html">Diagnostics</a>
+                                    <a class="dropdown-item" href="#">Medical Equipments & Lab Reagents</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Consultation</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Products</a>
+                            </li>
+                        </ul>
+                        <div class="norder">
+                            <a href="#" >order <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>    
+                    </nav>
+            </div>
+        </section> -->
